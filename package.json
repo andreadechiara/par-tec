@@ -2,6 +2,8 @@
   "name": "expor-angular2",
   "version": "0.0.0",
   "main": "index.js",
+  "module": "app.module.js",
+  "jsnext:main": "app.module.js",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
