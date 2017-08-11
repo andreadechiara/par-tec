@@ -14,7 +14,7 @@ import { HttpModule } from '@angular/http';
     AppComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
     BrowserModule,
     FormsModule,
     HttpModule
