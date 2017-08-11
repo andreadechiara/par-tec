@@ -15,6 +15,9 @@ import { HttpModule } from '@angular/http';
   ],
   imports: [
     CommonModule
+    BrowserModule,
+    FormsModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent],
