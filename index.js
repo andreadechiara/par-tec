@@ -1,1 +1,1 @@
-export { AppComponent } from '.src/app/app.component';
+export { AppModule } from '.src/app/app.module';
