@@ -8,3 +8,6 @@ if (environment.production) {
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule);
+export {AppService} from './src/app/app.service';
+export * from './src/app/app.component';
+export * from './src/app/app.module';

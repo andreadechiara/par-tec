@@ -1,21 +1,17 @@
 {
-  "compilerOptions": {
-    "baseUrl": "",
-    "declaration": false,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "lib": ["es6", "dom"],
-    "mapRoot": "./",
-    "module": "es6",
-    "moduleResolution": "node",
-    "outDir": "../dist/out-tsc",
-    "sourceMap": true,
-    "target": "es5",
-    "typeRoots": [
-      "../node_modules/@types"
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "ES5",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "declaration": true
+    },
+    "files": [
+        "ng2-translate.ts"
     ],
-     "files": [
-    "./app/app.module.ts"
+    "exclude": [
+        "node_modules"
     ]
-  }
 }
